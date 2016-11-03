@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // verifies we have formatted our js and HTML according to our style conventions
     jsbeautifier: {
-      files: ['Gruntfile.js', 'jquery.hotkeys.js', 'test/spec/**/*.js'],
+      files: ['Gruntfile.js', 'jquery-hotkeys.js', 'test/spec/**/*.js'],
       options: {
         mode: 'VERIFY_ONLY',
         js: {
@@ -37,7 +37,7 @@ module.exports = function(grunt) {
     jasmine: {
       pivotal: {
         options: {
-          vendor: ['jquery-1.4.2.js', 'jquery.hotkeys.js', 'test/lib/**.js'],
+          vendor: ['jquery-1.4.2.js', 'jquery-hotkeys.js', 'test/lib/**.js'],
           outfile: 'test/SpecRunner.html',
           keepRunner: true,
           specs: 'test/spec/*Spec.js'
