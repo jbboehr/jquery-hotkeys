@@ -2,7 +2,7 @@
   "name": "jquery-hotkeys",
   "version": "0.2.1",
   "description": "**jQuery Hotkeys** is a plug-in that lets you easily add and remove handlers for keyboard events anywhere in your code supporting almost any key combination.",
-  "main": "jquery.hotkeys.js",
+  "main": "jquery-hotkeys.js",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jasmine": "^0.7.0",
